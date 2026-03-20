@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brian Tech Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: linear-gradient(135deg, black, gray);
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #333;
+    }
+
+    nav a {
+      color: white;
+      padding: 15px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    /* Navigation link hover with glow */
+    nav a:hover {
+      background: orange;
+      box-shadow: 0 0 10px orange;
+      border-radius: 5px;
+    }
+
+    .section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      background: white;
+      margin: 10px;
+      padding: 20px;
+      width: 200px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    /* Highlight effect on hover */
+    .box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(255,165,0,0.8); /* bright orange glow */
+      border: 2px solid orange;
+    }
+
+    .contact {
+      background: black;
+      color: white;
+    }
+
+    button {
+      background: orange;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: white;
+      color: black;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    /* About Me Image */
+    #about img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Brian Tech 💻</h1>
+  <p>Web Developer | Business Websites | Networking & Graphic Design</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#other-services">Other Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <img src="brian.jpg" alt="Brian Tech">
+  <p>I create modern, mobile-friendly websites, set up networks, and design graphics to help businesses grow online.</p>
+</section>
+
+<section id="services" class="section">
+  <h2>My Services</h2>
+  <div class="container">
+    <div class="box">
+      <h3>Business Websites</h3>
+      <p>Ksh 3,000 - 10,000</p>
+    </div>
+
+    <div class="box">
+      <h3>Online Stores</h3>
+      <p>Ksh 5,000 - 15,000</p>
+    </div>
+
+    <div class="box">
+      <h3>Portfolio Websites</h3>
+      <p>Ksh 2,000 - 5,000</p>
+    </div>
+  </div>
+</section>
+
+<section id="other-services" class="section">
+  <h2>Other Services</h2>
+  <div class="container">
+    <!-- Networking Services -->
+    <div class="box">
+      <h3>Networking</h3>
+      <p>Network Installation & Configuration</p>
+      <p>Network Setup Plans</p>
+      <p>Ksh 3,000 - 12,000</p>
+    </div>
+
+    <!-- Graphic Design Services -->
+    <div class="box">
+      <h3>Graphic Design</h3>
+      <p>Logos, Flyers, Brochures</p>
+      <p>Posters, Business Cards, Invitation Cards</p>
+      <p>Ksh 1,000 - 5,000</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="section">
+  <h2>My Work</h2>
+  <div class="container">
+    <div class="box">
+<section id="contact" class="section contact">
+  <h2>Contact Me</h2>
+  <p>📞 0717563414</p>
+  <p>📧 wambuabrian723@gmail.com</p>
+
+  <a href="https://wa.me/254717563414" target="_blank">
+    <button>Chat on WhatsApp</button>
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Brian Tech</p>
+</footer>
+
+</body>
+</html>
